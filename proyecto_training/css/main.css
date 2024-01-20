@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../media/fondo_body.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.encabezado {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container_menu {
+    display: flex;
+    margin: 20px;
+    width: 80%;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+
+.encabezado{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 25px;
+
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+    transition: color .3s
+}
+
+.links li a:hover{
+    color: red;
+}
+
+.burger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line{
+    width: 30px;
+    height: 2px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.menu_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.icon {
+    color: lightgray;
+    font-size: 25px;
+}
+
+
+
+.icon:hover,
+a:hover {
+    color: red;
+    transition: .3s;
+}
+
+/* FIN DEL HEADER */
+
+/* COMIENZO DEL DIV IMAGEN */
+
+
+.contenedor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../media/primer_imagen.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.contenedor_texto {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo {
+    color: #950000;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.texto {
+    color: lightgray;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+.boton {
+    background-color: #950000;
+    border-radius: 20px;
+    border: 2px solid #950000;
+    color: lightgray;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.boton:hover {
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    color: #950000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.asesorias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_asesorias {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+}
+
+.texto_asesorias {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.primerh1 {
+    color: #950000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.segundoh1 {
+    color: lightgray;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+
+
+}
+
+.texto_asesorias p {
+    color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 80%;
+
+}
+
+.tarjetas_asesoria {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+
+
+.tarjeta1 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 6px 4px #950000a2;
+}
+
+.tarjeta2 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 6px 4px #950000a2;
+}
+
+.tarjeta1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.tarjeta2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.tarjeta1:hover {
+    box-shadow: 0 0 6px 4px #c50d0dd0;
+}
+
+.tarjeta2:hover {
+    box-shadow: 0 0 6px 4px #c50d0dd0;
+}
+
+.e-book {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../media/fondogym.jpg);
+    background-size: cover;
+}
+
+.contenedor_e-book {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img_e-book {
+    width: 50%;
+}
+
+.img_e-book img {
+    width: 300px;
+    height: 500px;
+}
+
+.texto_e-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto_e-book h1 {
+    color: #950000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.texto_e-book p {
+    color: lightgray;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.sobre_mi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_sobre_mi {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.texto_sobre_mi {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.texto_sobre_mi h1 {
+    color: #950000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.texto_sobre_mi p {
+    color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.imagen_sobre_mi {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.footer h1 {
+    color: #950000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.footer_redes {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+}
+
+.redes_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.logo_footer img {
+    width: 150px;
+}
+
+.footer a:hover {
+    padding-left: 5px;
+}
+
+
+@media (max-width:1024px) {
+    body{
+        width: 100%;
+    }
+    .burger{
+        display: flex;
+    }
+
+    .navbar{
+        position: relative;
+        width: 100%;
+    }
+
+    .links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        transition: all .3s;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .links.active{
+        padding-left: 0px;
+        display: flex;
+        transition: .5s;
+    }
+    .contenedor {
+        justify-content: center;
+        height: 200px;
+    }
+
+    .contenedor_texto {
+        width: 60%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .contenedor_texto h1 {
+        font-size: 25px;
+    }
+
+    .contenedor_texto p {
+        font-size: 15px;
+    }
+
+    .boton {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .contenedor_asesorias {
+        flex-direction: column;
+    }
+
+    .texto_asesorias {
+        width: 100%;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .contenedor_e-book {
+        flex-direction: column;
+    }
+
+    .img_e-book {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_e-book img {
+        width: 260px;
+        height: 350px;
+    }
+
+    .texto_e-book {
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .contenedor_sobre_mi {
+        flex-direction: column;
+    }
+
+    .texto_sobre_mi {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .imagen_sobre_mi {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen_sobre_mi img {
+        width: 400px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .footer_redes {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+
+
+
+}
